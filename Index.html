@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music - MusicME</title>
+</head>
+<body>
+
+    <div class="page-one" id="pageOne">
+        <div>
+            <ul id="nav">
+                <li><p class="logo">MusicMe</p></li>
+                <li><button class="primary-btn"><a href="#id-goto-two">Try Now</button></a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <p class="main-content">Lose yourself in 60 million songs.</p>
+            <p class="sub-content">MusicMe is available for both Iphone and Android devices.</p>
+        </div>
+
+        <div>
+            <a href="#id-goto" class="btn-bottom container"><img src="assets/Scroll-down.png"></a>
+        </div>
+    </div>
+
+    <div class="page-two">
+        <div id="three-phones">
+            <img src="assets/first-phone.png" class="first-phone" id="id-goto">
+            <img src="assets/second-phone.png" class="second-phone container">
+            <img src="assets/third-phone.png" class="third-phone">
+        </div>
+    </div>
+
+    <div class="page-three" id="id-goto-two">
+        <p class="easy">It's easy as it <br> sounds.</p>
+            <div class="first-card">
+                <p class="first-card-p">Sing along, tap ahead or just <br> listen with lyrics view.</p>
+                <div class="card-btn" onclick="cardClick()"><img src="assets/arrow.svg" class="btn-icon"></div>
+                <img src="assets/card-1.png" class="card-one-img">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
